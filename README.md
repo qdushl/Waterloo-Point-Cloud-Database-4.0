@@ -1,12 +1,12 @@
 # Waterloo-Point-Cloud-Database-4.0
 This database was created by Su Honglei ([suhonglei@qdu.edu.cn](mailto:suhonglei@qdu.edu.cn)) and Lv Jianyu (lvjianyu@qdu.edu.cn) from Qingdao University in 2024. You are welcome to test it and make suggestions for modification. If you use our database [WPC4.0](https://drive.google.com/drive/folders/1nyRv0a76rVE7trPLHYVzOZzHG37nsth5?usp=sharing) in your paper (Google account required), please cite our paper:
 
-@article{lv2024no,
-  title={No-reference Bitstream-based Perceptual Quality Assessment of Octree-Lifting Encoded 3D Point Clouds},
-  author={Lv, Jianyu and Su, Honglei and Liu, Qi and Yuan, Hui},
-  journal={IEEE Transactions on Visualization and Computer Graphics},
-  year={2024},
-  publisher={IEEE}
+@article{lv2024no,  
+  title={No-reference Bitstream-based Perceptual Quality Assessment of Octree-Lifting Encoded 3D Point Clouds},  
+  author={Lv, Jianyu and Su, Honglei and Liu, Qi and Yuan, Hui},  
+  journal={IEEE Transactions on Visualization and Computer Graphics},  
+  year={2024},  
+  publisher={IEEE}  
 }
 
 The WPC4.0 database is composed of 168 Octree-Lifting encoded point clouds and corresponding bitstreams whose 14 original point clouds (Bag, Cake, Cauliflower, Glasses_case, Honeydew_melon, House, Litchi, Mushroom, Pen_container, Pineapple, Ping-pong_bat, Pumpkin, Statue, Tool_box) are from the [WPC database](https://github.com/qdushl/Waterloo-Point-Cloud-Database). Each original point cloud is encoded by 3 geometry parameters GQP{0.5, 0.25, 0.125} and 4 texture parameters TQP{28, 34, 40, 46} to produce 12 distortion levels. The rest of the encoding parameters are set with default values. The subjective test settings and raw data processing are the same as those in the WPC database.<br/><br/>
